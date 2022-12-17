@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+body{
+
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.head-msg{
+    text-align: center;
+}
+
+
+.nav{
+
+    
+    background: black;
+    position:sticky;
+    color: #FFF;
+    display:flex;
+    
+    top: 0px;
+    width: 100%;
+    z-index:99;
+
+    
+   
+}
+
+
+.nav .logo{
+    font-size: 17px bold;
+    padding: 13px;
+    margin-left: 15px;
+}
+
+.nav .logo a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    
+    margin-left: auto;
+    font-size: 17px bold;
+}
+
+ul li{
+    padding: 10px;
+    list-style: none;
+}
+ul li a{
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+
+}
+ .container{
+    display: flex;
+    margin:20px;
+    padding: 20px;
+    gap: 100px;
+    
+} 
+
+
+.info{
+
+   text-align: justify;
+}
+
+.main-right{
+
+    width:50vw;
+    display: flex;
+
+}
+
+  
+.image-gallery{
+
+    display:flex;
+
+
+}
+.flex-items{
+
+    align-items: center;
+}
+
+ .image-gallery {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    gap:30px;
+  } 
+  
+  .image-gallery > li {
+    width: 300px;
+    height: 200px;
+   
+  } 
+  
+  .image-gallery li img {
+
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .image-gallery > li {
+    /* ... */
+    position: relative;
+    cursor: pointer;
+  }
+  li{
+    font-weight: 400;
+  }
+
+  
+  #btn{
+    background-color: black;
+    color:white;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+  .nav a:hover{
+    color: rgb(254, 168, 241);
+    
+  }
+
+ .gallery h1{
+
+
+    font-size: 35px;
+    margin-left: 37px;
+ }
